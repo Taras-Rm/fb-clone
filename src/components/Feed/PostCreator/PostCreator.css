@@ -1,0 +1,61 @@
+.postCreator {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 8px 8px 0px rgba(34, 60, 80, 0.2);
+    margin-top: 30px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.postCreator__top {
+    display: flex;
+    padding: 10px;
+    border-bottom: 2px solid #f1f2f5;
+}
+
+.postCreator__top > button {
+    display: none;
+}
+
+.postCreator__top > input {
+    display: flex;
+    align-items: center;
+    background-color: rgb(238, 238, 238);
+    border-radius: 999px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    margin-left: 20px;
+}
+
+.postCreator__text {
+    flex: 1;
+}
+
+.postCreator__bottom {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.postCreator__option {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    padding: 15px;
+    transition: ease-in .3s;
+    cursor: pointer;
+}
+
+.postCreator__option:hover {
+    background-color: rgb(238, 238, 238);
+    border-radius: 10px;
+}
+
+.postCreator__option > span {
+    margin-left: 15px;
+    color: gray;
+}

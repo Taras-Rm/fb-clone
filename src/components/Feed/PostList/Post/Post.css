@@ -1,0 +1,83 @@
+.post {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 8px 8px 0px rgba(34, 60, 80, 0.2);
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.post__profile {
+    padding: 10px 10px 20px 10px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.post__info {
+    margin-left: 20px;
+}
+
+.post__info > h4{
+    width: fit-content;
+    border-bottom: 1px solid transparent;
+    cursor: pointer;
+}
+
+.post__info > h4:hover{
+    border-bottom: 1px solid black;
+}
+
+.post__info > span{
+    color: #d3d3d3;
+    cursor: default;
+}
+
+.post__text {
+    padding: 10px 10px 20px 10px;
+}
+
+.post__img > img{
+    width: 100%;
+}
+
+.post > hr {
+    margin-top: 4px;
+    background-color: #d3d3d3;
+}
+
+.post__controll {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.post__option {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    padding: 10px;
+    transition: ease-in .3s;
+    cursor: pointer;
+}
+
+.post__option:hover {
+    background-color: rgb(238, 238, 238);
+    border-radius: 10px;
+}
+
+.post__option > span {
+    margin-left: 15px;
+    color: gray;
+}
+
+.post__option:last-child {
+    display: flex;
+    align-items: center;
+}
+
+.post__option > .MuiSvgIcon-root {
+    color: gray;
+}
